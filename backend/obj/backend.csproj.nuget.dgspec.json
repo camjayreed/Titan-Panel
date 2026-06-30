@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\camer\\vscode\\Titan-Panel\\backend\\backend.csproj": {}
+    "C:\\Users\\camer\\vscode\\Titan-Panel\\Backend\\backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\camer\\vscode\\Titan-Panel\\backend\\backend.csproj": {
+    "C:\\Users\\camer\\vscode\\Titan-Panel\\Backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\camer\\vscode\\Titan-Panel\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\Users\\camer\\vscode\\Titan-Panel\\Backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\camer\\vscode\\Titan-Panel\\backend\\backend.csproj",
+        "projectPath": "C:\\Users\\camer\\vscode\\Titan-Panel\\Backend\\backend.csproj",
         "packagesPath": "C:\\Users\\camer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\camer\\vscode\\Titan-Panel\\backend\\obj\\",
+        "outputPath": "C:\\Users\\camer\\vscode\\Titan-Panel\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\camer\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -47,6 +47,16 @@
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[10.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[10.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.9, )"
             }

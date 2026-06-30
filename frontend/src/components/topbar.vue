@@ -2,7 +2,7 @@
     <div class="topbar">
         <p>Current User:</p>
         <p id="top_title">Titan Panel</p>
-        <a href="" id="top_login">Login</a>
+        <a href="" id="top_login">Change User</a>
     </div>
 </template>
 
